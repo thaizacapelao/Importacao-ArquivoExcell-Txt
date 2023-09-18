@@ -54,7 +54,7 @@ function App() {
   return (
     <div className="wrapper">
 
-      <h3 className="titulo">Carregar e visualizar planilhas do Excel</h3>
+      <h3 className="titulo">Carregar e visualizar planilhas de Excel</h3>
 
       {/* Form */}
       <form className="form-group custom-form " onSubmit={handlefileSubmit}>
@@ -94,7 +94,7 @@ function App() {
             </table>
           </div>
         ) : (
-          <div>Nenhum arquivo foi carregado.</div>
+          <div >Nenhum arquivo foi carregado ainda.</div>
         )}
       </div>
     </div>

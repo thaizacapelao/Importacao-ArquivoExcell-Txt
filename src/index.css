@@ -8,6 +8,7 @@
 .titulo{
   font-size: 25px;
   margin-bottom: 1.5rem;
+  color: #3c3c3d;
 }
 
 .wrapper{
@@ -23,15 +24,19 @@
   width: 430px;
 }
 
+input[type="file"] {
+  color: #333;
+  font-size: 16px;
+}
+
 .btn{
   margin: 10px 0 10px 0;
   display: flex;
-  background-color: #278064c7;
+  background-color: #278064;
   align-items: center;
   color: white;
   border-radius: 5px;
   outline: none;
-  pointer-events: none;
   border: transparent;
   padding: 12px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
