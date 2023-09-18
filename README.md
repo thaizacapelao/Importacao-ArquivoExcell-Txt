@@ -2,8 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell/assets/104083691/77efaa84-d68a-4d3c-b059-7682c76b9d91)
-
+![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell/assets/104083691/f4aa31fa-9617-414a-abe1-d7b74afd38dc)
+![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell/assets/104083691/db8447d7-1c0a-4395-ba3e-f8304738c2e3)
+![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell/assets/104083691/fdfec78f-9cdb-428c-884d-20d79b2e0680)
 
 
 ## Available Scripts
