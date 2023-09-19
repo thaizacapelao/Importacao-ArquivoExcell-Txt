@@ -18,6 +18,7 @@ function App() {
       "application/vnd.ms-excel",
       "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "text/csv",
+      "text/plain",
     ];
     let selectedFile=e.target.files[0];
     if (selectedFile) {
@@ -25,7 +26,8 @@ function App() {
         setTypeError(null);
         let reader = new FileReader();
         reader.readAsArrayBuffer(selectedFile);
-        reader.onload=(e)=>{
+        reader.onload = (e) => {
+          document.querySelector('.text').textContent = selectedFile.name;
           setExcelFile(e.target.result);
         };
       } 
@@ -63,7 +65,12 @@ function App() {
           className="form-control"
           requeried
           onChange={handlefile}
+          id="file"
         />
+        <label for="file">
+          <span class="text">Selecione o arquivo</span>
+          <span>Procurar</span>
+        </label>
         <button type="submit" className="btn btn-sucess btn-md">CARREGAR</button>
         {typeError&&(
           <div className="alert alert-danger custom-error" role="alert">{typeError}</div>
