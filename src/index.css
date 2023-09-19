@@ -8,13 +8,15 @@
 .titulo{
   font-size: 25px;
   margin-bottom: 2rem;
-  color: #3c3c3d;
+  color: #3c3c3dd8;
 }
 
 .wrapper{
   width: 100%;
   max-width: 1200px;
   background-color: #d1d1d12d;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #bebebe93;
   border-radius: 15px;
   margin: auto;
   overflow-x: hidden;
@@ -36,10 +38,15 @@ label{
   justify-content: space-between;
   align-items: center;
   padding: 0.4rem;
-  border: 1px solid #2A9CD6;
+  border: 1px solid #2a9dd696;
   border-radius: 0.5rem;
-  color: #626366;
+  color: #8a8b8fde;
   background-color: #EAF3FA;
+}
+
+label span {
+  display: flex;
+  align-items: center;
 }
 
 label span:nth-child(2){
@@ -47,17 +54,21 @@ label span:nth-child(2){
   background-color: #2A9CD6;
   padding: 0.5rem 0.5rem;
   border-radius: 0.3rem;
-  margin-left: 3rem;
   cursor: pointer;
+}
+
+.texto-inicial{
+  color: #3a38386b;
+
 }
 
 .btn{
   margin: 10px 0 10px 0;
   display: flex;
-  background-color: #278064;
+  background-color: #278064d5;
   align-items: center;
   cursor: pointer;
-  color: white;
+  color: rgba(255, 255, 255, 0.897);
   border-radius: 5px;
   outline: none;
   border: transparent;
@@ -68,7 +79,7 @@ label span:nth-child(2){
 
 .viewer{
   width: 100%;
-  background-color: #F1F1F1;
+  background-color: #d6d4d47a;
   padding: 20px;
   display: flex;
   border-radius: 5px;
@@ -109,4 +120,23 @@ label span:nth-child(2){
   border-radius: 5px;
   color: #626366;
   margin-bottom: 10px;
+}
+
+.custom-icon {
+  color: #ffffffee;
+  width: 34px;
+  padding-bottom: 4px;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #00000081; 
+  font-size: 24px; 
+}
+
+.hidden {
+  display: none;
 }
