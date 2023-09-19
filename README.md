@@ -1,4 +1,4 @@
-# Carregar arquivos de Excel ou Txt.
+# Carregar arquivos de Excel ou Txt - React.
 
 ### Adicionado validação caso não seja o tipo do arquivo correto.
 
