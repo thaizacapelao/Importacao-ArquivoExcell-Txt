@@ -2,11 +2,14 @@
 
 ### Adicionado validação caso não seja o tipo do arquivo correto.
 
+![chrome_OnyT2hZJpx](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/ff2064be-6ecc-47f1-ad3c-0493b0a37c0d)
+![chrome_yIy9GWp3kX](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/9610d471-ab05-4bca-b492-e5d43f2e6739)
+![chrome_PLjfADBEVV](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/486c84c7-583d-4626-95fa-9f14c0b0f0b7)
+![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/fe852d96-5925-4536-a51b-18f94f2bf566)
+![chrome_M3iBy4gebp](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/a0d5ed00-ae20-4771-bc1f-d5ca7e18f9cd)
 
-![chrome_c2g9mpe76d](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/e7885d75-9fd8-41ad-ac17-99bf2650858a)
-![chrome_J5P8dPMLBd](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/85b4c978-d48d-41d9-b1c4-2df677b781ed)
-![chrome_KyZMN55B6l](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/b90cad68-22ec-49d0-8fdd-deade6810615)
-![chrome_mlDKhSuF9M](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/e4d30df0-e4d6-482e-b59a-e13ede99d9ea)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
