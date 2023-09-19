@@ -1,13 +1,14 @@
-# Carregar arquivos de Excel ou Txt com validção caso não seja.
+# Carregar arquivos de Excel ou Txt.
+
+### Adicionado validação caso não seja o tipo do arquivo correto.
+
+
+![chrome_c2g9mpe76d](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/e7885d75-9fd8-41ad-ac17-99bf2650858a)
+![chrome_J5P8dPMLBd](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/85b4c978-d48d-41d9-b1c4-2df677b781ed)
+![chrome_KyZMN55B6l](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/b90cad68-22ec-49d0-8fdd-deade6810615)
+![chrome_mlDKhSuF9M](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/e4d30df0-e4d6-482e-b59a-e13ede99d9ea)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/1b9eced7-9cfd-43ef-acff-5e7483de2d54)
-
-![chrome_sw16bweM3n](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/95e4f838-fe83-45ae-9563-419097706f3c)
-
-![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/12b50d30-c2d3-4a6f-8004-a15e71c815bd)
-
 
 ## Available Scripts
 
