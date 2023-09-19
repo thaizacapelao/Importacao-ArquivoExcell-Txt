@@ -1,9 +1,12 @@
-# Getting Started with Create React App
+# Carregar arquivos de Excel ou Txt com validção caso não seja.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell/assets/104083691/77efaa84-d68a-4d3c-b059-7682c76b9d91)
+![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/1b9eced7-9cfd-43ef-acff-5e7483de2d54)
 
+![chrome_sw16bweM3n](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/95e4f838-fe83-45ae-9563-419097706f3c)
+
+![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/12b50d30-c2d3-4a6f-8004-a15e71c815bd)
 
 
 ## Available Scripts
