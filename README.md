@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![image](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/1b9eced7-9cfd-43ef-acff-5e7483de2d54)
 
-![explorer_ocWRJxTwdX](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/a6e0d7ec-fafe-40ca-ad5e-a6d8f216078d)
+![chrome_sw16bweM3n](https://github.com/thaizacapelao/Importacao-ArquivoExcell-Txt/assets/104083691/95e4f838-fe83-45ae-9563-419097706f3c)
+
 
 
 ## Available Scripts
