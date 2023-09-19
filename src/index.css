@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+  margin: 0.2rem 0 0 0;
   padding: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   box-sizing: border-box;
@@ -14,6 +14,8 @@
 .wrapper{
   width: 100%;
   max-width: 1200px;
+  background-color: #d1d1d12d;
+  border-radius: 15px;
   margin: auto;
   overflow-x: hidden;
   padding: 20px;
@@ -33,7 +35,7 @@ label{
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 0.7rem;
+  padding: 0.4rem;
   border: 1px solid #2A9CD6;
   border-radius: 0.5rem;
   color: #626366;
@@ -66,14 +68,36 @@ label span:nth-child(2){
 
 .viewer{
   width: 100%;
-  background-color: #e4e4e4;
+  background-color: #F1F1F1;
   padding: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 5px;
   box-shadow: none;
   outline-color: transparent;
+  overflow: auto;
+  justify-content: center;
+  border: 1px solid #dadbdb;
+}
+
+.viewer.center-content {
+  justify-content: flex-start;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #f3f3f3;
+  border-radius: 0px 5px 5px 0px;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 0px 5px 5px 0px;
+  background-color: #c9c9c3;
 }
 
 .custom-error {

@@ -8,6 +8,7 @@ function App() {
 
   const [excelFile, setExcelFile] = useState(null);
   const [typeError, setTypeError] = useState(null);
+  const [centerViewerContent, setCenterViewerContent] = useState(false); // Adicione o estado aqui
 
   // submit estado:
   const [excelData, setExcelData] = useState(null);
@@ -50,6 +51,7 @@ function App() {
       const worksheet = workbook.Sheets[worksheetName];
       const data = XLSX.utils.sheet_to_json(worksheet);
       setExcelData(data.slice(0,10));
+      setCenterViewerContent(true);
     }
   }
 
@@ -71,14 +73,19 @@ function App() {
           <span class="text">Selecione o arquivo</span>
           <span>Procurar</span>
         </label>
-        <button type="submit" className="btn btn-sucess btn-md">CARREGAR</button>
+        <button 
+        type="submit" 
+        className="btn btn-sucess btn-md"
+        onClick={handlefileSubmit}
+        >
+          CARREGAR</button>
         {typeError&&(
           <div className="alert alert-danger custom-error" role="alert">{typeError}</div>
         )}
       </form>
 
       {/* View data */}
-      <div className="viewer">
+      <div className={`viewer ${centerViewerContent ? 'center-content' : ''}`}>
         {excelData?(
           <div className="table-responsive">
             <table className="table">
