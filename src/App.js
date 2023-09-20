@@ -7,7 +7,7 @@ function App() {
 
   const [excelFile, setExcelFile] = useState(null);
   const [typeError, setTypeError] = useState(null);
-  const [centerViewerContent, setCenterViewerContent] = useState(false); // Adicione o estado aqui
+  const [centerViewerContent, setCenterViewerContent] = useState(false);
 
   // submit estado:
   const [excelData, setExcelData] = useState(null);
@@ -66,7 +66,7 @@ function App() {
           id="file"
         />
         <label for="file">
-          <span class="text">Selecione o arquivo</span>
+          <span class="text">Selecione o arquivo...</span>
           <span>
           <CiExport className="custom-icon" strokeWidth={2} size={22} /> Browse Files
           </span>
